@@ -30,3 +30,4 @@ This project contains a Python script that scrapes educational content from the 
 
    
    
+[MIT License](https://opensource.org/licenses/MIT)
