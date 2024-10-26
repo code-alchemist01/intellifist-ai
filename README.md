@@ -44,9 +44,9 @@ Replace `GRADE`, `LESSON`, and `TOPIC` with your desired values.
 
 The main function `scrape_through_hs(grade: str, lesson: str, topic: str)` takes three parameters:
 
-- `grade`: The grade level (e.g., "10")
-- `lesson`: The lesson name (e.g., "din-kulturu")
-- `topic`: The specific topic (e.g., "allah-insan-iliskisi")
+- `grade`: The grade level ("9-12")
+- `lesson`: The lesson name ("matematik","fizik","kimya","biyoloji","tarih","din-kulturu","ingilizce","cografya")
+- `topic`: The specific topic (e.g., "allah-insan-iliskisi") (You can view the topics via the URL on this site: https://www.testkolik.com/)
 
 It returns a list of dictionaries, each containing:
 - `number`: The question number
