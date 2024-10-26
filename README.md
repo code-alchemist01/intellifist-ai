@@ -19,13 +19,13 @@ This project contains a Python script that scrapes educational content from the 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/salihfurkaan/intellifist-ai
+   https://github.com/code-alchemist01/intellifist-ai.git
    cd intellifist-ai
    ```
 
 2. Install the required packages:
    ```
-   pip install requests beautifulsoup4 google
+   pip install requests beautifulsoup4 google-generativeai
    ```
 
   
