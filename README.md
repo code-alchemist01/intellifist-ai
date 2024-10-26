@@ -18,50 +18,15 @@ This project contains a Python script that scrapes educational content from the 
 ## Installation
 
 1. Clone this repository:
-   
-Bash
-
-
-   git clone https://github.com/salihfurkaan/intellifist-ai
+
+   git clone https://github.com/code-alchemist01/intellifist-ai.git
    cd intellifist-ai
-   
+
 
 2. Install the required packages:
-    
-Bash
-
-
-  pip install requests beautifulsoup4
+
+     pip install requests beautifulsoup4
    
 
-## Usage
-
-The main script is src/data/bs_scraper.py. You can run it directly:
-py
-copy
-
-
-thon src/data/bs_scraper.py
-
-Replace GRADE, LESSON, and TOPIC with your desired values.
-
-## Function Description
-
-The main function scrape_through_hs(grade: str, lesson: str, topic: str) takes three parameters:
-
-- grade: The grade level (e.g., "10")
-- lesson: The lesson name (e.g., "din-kulturu")
-- topic: The specific topic (e.g., "allah-insan-iliskisi")
-
-It returns a list of dictionaries, each containing:
-- number: The question number
-- full_text: The full text of the question
-- options: A list of answer options
-
-## Disclaimer
-
-This script is for educational purposes only. Make sure you have the right to scrape content from the target website and comply with their terms of service.
-
-## License
-
-MIT License
+   
+   
